@@ -21,7 +21,7 @@ const checkWeather = async function(city) {
   } catch (err){
     document.querySelector('.weather-status').style.display = 'none';
     alert('Invalid city name! Please try again!');
-    searchInput.value = ''
+    searchInput.value = '';
   }
  
 }
